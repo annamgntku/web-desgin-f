@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  
+  body {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+
+  }
+  
+  
+  .card {
+    padding: 40px;
+    border-radius: 13px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    width: 450px;
+  }
+  
+  h1 {
+    
+    margin-bottom: 10px;
+  }
+  
+  .small {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .form-content {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+
+  a {
+    color: #07c;
+    text-decoration: none;
+    line-height: 3;
+  }
+ 
+  
+  input[type="text"]:hover,
+  input[type="text"]:focus {
+    outline: none;
+   border-top: 3px solid rgb(44, 123, 166);
+   border-bottom: 3px solid rgb(44, 123, 166);
+   border-left: 3px solid rgb(44, 123, 166);
+   border-right: 3px solid rgb(44, 123, 166);
+  
+  }
+  input[type="password"]:hover,
+  input[type="text"]:focus {
+    outline: none;
+   border-top: 3px solid rgb(44, 123, 166);
+   border-bottom: 3px solid rgb(44, 123, 166);
+   border-left: 3px solid rgb(44, 123, 166);
+   border-right: 3px solid rgb(44, 123, 166);
+  }
+ 
+  
+ 
+  
+  a:hover{
+    background-color: #d0e2f0;
+    border: 0px solid #064cf0bd;
+  }
+  
+  
+  
+  .submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+  
+  .submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    color: #999;
+    font-size: 14px;
+    margin: 20px 0;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 3px solid #ccc;
+    margin: 0 10px;
+  }
+  
+  .divider span {
+    color: #666;
+    white-space: nowrap;
+  }
+  
+  .social {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .social i {
+    margin-right: 8px;
+  
+  }
+  .social:hover{
+    background-color: grey;
+  }
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    
+    
+  }
